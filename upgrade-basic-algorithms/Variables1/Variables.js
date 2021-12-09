@@ -12,5 +12,5 @@ let y = 10;
 console.log(h,y);
 
 //1.4
-let z = h + z;
+let z = h + y;
 console.log(z);
