@@ -4,7 +4,7 @@
 function sum(numberOne , numberTwo) {
     if (numberOne > numberTwo){
         return console.log(numberOne);
-    } else if (numberOne < numberTwo) {
+    } else {
         return console.log(numberTwo);
     }
 }
