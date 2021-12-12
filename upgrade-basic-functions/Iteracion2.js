@@ -18,7 +18,8 @@ function findLongestWord(param) {//Param es el array Vengadores
         //En el condicinal va comparando la cantidad de letras del nombre que a capturado 
         //y le indica que ¿si es el total de letras de "Thor"(param[i].length) es mayor que el total de letras de "Hulk" (biggestname.length)?
         //como no es mayor no entra en el condicinal a cambiar Hulk por Thor
-        biggestname = param[i]; //la primera vez que cambia el valor de biggestname es a Ironman
+        biggestname = param[i]; //la primera vez que cambia el valor de biggestname es de Hulk a Ironman
+        //cuando llega a Captain A. no vuelve a entrar en el condicinal por que Spiderman son 9 y igual que Captain A. y Captain.M
     }
   }
   return console.log(biggestname)
