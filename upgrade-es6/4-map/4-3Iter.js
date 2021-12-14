@@ -9,7 +9,7 @@ const cities = [
 ];
 
 const citysvisit = cities.map((city) => {
-    if (city.isVisited){
+    if (city.isVisited){// por defecto es true por ser booleano
         return city.name + ': Visitado';
     } else {
         return city.name;
