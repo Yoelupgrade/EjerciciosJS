@@ -31,7 +31,8 @@ function repeatCounter(param) {
   let counter = {};
   for (let i = 0; i < param.length; i++) {
     if (param[i] in counter) { //Saca un boleano true si la palabra (param[i]) esta dentro del array.
-      counter[param[i]]++; //Suma al objeto counter +1 por la palabra param[i] y le añade la palabra al array de objetos counter
+      counter[param[i]]++; //Suma al objeto counter +1 por la palabra (param[i]) y le añade la palabra al array de objetos counter
+      console.log( counter[param[i]]) //devuelve el valor númerico de la palabra encontrada en el indice counter(number) param[i](palabra);
     } else {
       counter[param[i]] = 1;
     }
